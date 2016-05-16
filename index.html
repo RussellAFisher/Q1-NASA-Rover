@@ -5,82 +5,95 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.css" />
     <title>Curiosity</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="containter header">
-        <div class="row">
-            <div id="logo" class="col-md-3">
-                <p>
-                    logo
-                </p>
-            </div>
-            <div id="search" class="col-md-2">
-                <br>
-                <br>
-                <h2>
-            Search By:
-          </h2>
-                <h2>
-            Or by Sol:<br>(Mars day)
-          </h2>
-                <h2>
-            Camera Angle:
-          </h2>
-            </div>
-            <div id="input" class="col-md-3">
-                <br>
-                <br>
-                <br>
-                <div class="form-group">
-                    <div class='input-group date' id='datetimepicker5'>
-                        <input type='text' class="form-control" />
-                        <span class="input-group-addon">
-                      <span class="glyphicon glyphicon-calendar"></span>
-                        </span>
-                    </div>
+
+    <head>
+        <div class="containter header">
+            <div class="row">
+                <div id="logo" class="col-md-3">
+                    <img src="Curiosity.png" alt="" width="100%vw" />
+                </div>
+                <div id="search" class="col-md-2">
+                    <br>
+                    <br>
+                    <h2>
+                  Search By:
+                </h2>
+                    <h2>
+                  Or by Sol:<br>(Mars day)
+                </h2>
+                    <h2>
+                  Camera Angle:
+                </h2>
+                </div>
+                <div id="input" class="col-md-3">
+                    <br>
+                    <br>
+                    <br>
                     <div class="form-group">
+                        <input type="date" name="name" id="dateBox" value="">
+                        <br>
                         <label for="numberpicker">Day of Mission</label>
                         <input type="text" class="form-control" id="numberpicker" placeholder="1-1337">
+                        <br>
+                        <select class="form-control">
+                            <option>Mast</option>
+                            <option>Front Hazard Avoidance Camera</option>
+                            <option>Rear Hazard Avoidance Camera</option>
+                            <option>Mars Hand Lens Imager</option>
+                            <option>Navigation Camera</option>
+                        </select>
                     </div>
-                    <br>
-                    <select class="form-control">
-                        <option>mast</option>
-                        <option>Front Hazard Avoidance Camera</option>
-                        <option>Rear Hazard Avoidance Camera</option>
-                    </select>
                 </div>
-            </div>
-            <div id="enter" class="col-md-2">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <button type="button" class="btn btn-warning">Search</button>
-            </div>
-            <div id="brand" class="col-md-2">
-                <p>
-                    brand
-                </p>
+                <div id="enter" class="col-md-2">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-warning">Search</button>
+                </div>
+                <div id="brand" class="col-md-2">
+                    <img src="SelfBrand1.png" alt="" width="50%vw" />
+                </div>
+
             </div>
 
         </div>
+    </head>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p id="imgPlace">
+              <img src=""/>
 
-    </div>
+            </p>
 
+          </div>
+          <div class="col-md-6">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-1.12.3.js" integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.js"></script>
     <script type="text/javascript" src="main.js"></script>
 </body>
 
