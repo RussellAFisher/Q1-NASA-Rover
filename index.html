@@ -41,14 +41,14 @@
                         <input type="date" name="name" id="dateBox" value="">
                         <br>
                         <label for="numberpicker">Day of Mission</label>
-                        <input type="text" class="form-control" id="numberpicker" placeholder="1-1337">
+                        <input type="text" class="form-control" id="solDate" placeholder="1-1337">
                         <br>
-                        <select class="form-control">
-                            <option>Mast</option>
-                            <option>Front Hazard Avoidance Camera</option>
-                            <option>Rear Hazard Avoidance Camera</option>
-                            <option>Mars Hand Lens Imager</option>
-                            <option>Navigation Camera</option>
+                        <select class="form-control" id="cameraAngle">
+                            <option id="mast">Mast</option>
+                            <option id="fhaz">Front Hazard Avoidance Camera</option>
+                            <option id="rhaz">Rear Hazard Avoidance Camera</option>
+                            <option id="mahli">Mars Hand Lens Imager</option>
+                            <option id="navcam">Navigation Camera</option>
                         </select>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                     <br>
                     <br>
                     <br>
-                    <button type="button" class="btn btn-warning">Search</button>
+                    <input type="submit" class="save" name="name" value="Search">
                 </div>
                 <div id="brand" class="col-md-2">
                     <img src="SelfBrand1.png" alt="" width="50%vw" />
