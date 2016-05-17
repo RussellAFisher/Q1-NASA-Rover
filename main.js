@@ -38,7 +38,7 @@ $(document).ready(function() {
             }).fail(function(data) {
                 $('#imgPlace').append('<img src="SunInterruption.png"/>');
             });
-        } else if (marsDate === "") {
+        } else  {
             $.get("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=" + earthDate + "&camera=" + cameraAngle + "&api_key=t5rTsXuOkLjqX0VKm3ZDXDF0pUghwSUtTB5Azlgf").done(function(data) {
                 console.log(data);
                 roverArray = (data.photos);
