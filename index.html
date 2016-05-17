@@ -36,19 +36,18 @@
                 <div id="input" class="col-md-3">
                     <br>
                     <br>
-                    <br>
                     <div class="form-group">
-                        <input type="date" name="name" id="dateBox" value="">
-                        <br>
-                        <label for="numberpicker">Day of Mission</label>
-                        <input type="text" class="form-control" id="solDate" placeholder="1-1337">
-                        <br>
+                        <label for="earthdate">August 7th, 2012 to Present</label>
+                        <input type="date" min="2012-08-07" name="earthdate" id="dateBox" value="">
+                        <br><br>
+                        <input type="number" class="form-control" id="solDate" min="1" max="1337" placeholder="Mission day, from 1-1337">
+                        <br><br>
                         <select class="form-control" id="cameraAngle">
-                            <option id="mast">Mast</option>
-                            <option id="fhaz">Front Hazard Avoidance Camera</option>
-                            <option id="rhaz">Rear Hazard Avoidance Camera</option>
-                            <option id="mahli">Mars Hand Lens Imager</option>
-                            <option id="navcam">Navigation Camera</option>
+                            <option value="mast" id="mast">Mast</option>
+                            <option value="front hazard avoidance camera" id="fhaz">Front Hazard Avoidance Camera</option>
+                            <option value="rear hazard avoidance camera" id="rhaz">Rear Hazard Avoidance Camera</option>
+                            <option value="mars hand lens imager" id="mahli">Mars Hand Lens Imager</option>
+                            <option value="navigation camera" id="navcam">Navigation Camera</option>
                         </select>
                     </div>
                 </div>
@@ -77,11 +76,14 @@
         <div class="row">
           <div class="col-md-6">
             <p id="imgPlace">
+              <img src="SunInterruption.png" alt="" />
             </p>
 
           </div>
           <div class="col-md-6">
+            <p id="photoInfo">
 
+            </p>
           </div>
 
         </div>
