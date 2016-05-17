@@ -1,6 +1,4 @@
 $(document).ready(function() {
-    var imgArray = [];
-    var getURL = "";
     var marsDate = "";
     var earthDate = "";
     var cameraAngle = "";
