@@ -18,11 +18,9 @@
         <div class="containter header">
             <div class="row">
                 <div id="logo" class="col-md-3">
-                    <img src="Curiosity.png" alt="" width="100%vw"/>
+                    <img src="Curiosity.png" class="img-rounded" alt="" width="75%vw" />
                 </div>
                 <div id="search" class="col-md-2">
-                    <br>
-                    <br>
                     <h2>
                   Search By:
                 </h2>
@@ -34,14 +32,16 @@
                 </h2>
                 </div>
                 <div id="input" class="col-md-3">
-                    <br>
-                    <br>
+
                     <div class="form-group">
                         <label for="earthdate">August 7th, 2012 to Present</label>
+                        <br>
                         <input type="date" min="2012-08-07" name="earthdate" id="dateBox" value="">
-                        <br><br>
+                        <br>
+                        <br>
                         <input type="number" class="form-control" id="solDate" min="1" max="1337" placeholder="Mission day, from 1-1337">
-                        <br><br>
+                        <br>
+                        <br>
                         <select class="form-control" id="cameraAngle">
                             <option value="mast" id="mast">Mast</option>
                             <option value="front hazard avoidance camera" id="fhaz">Front Hazard Avoidance Camera</option>
@@ -60,8 +60,7 @@
                     <br>
                     <br>
                     <br>
-                    <br>
-                    <input type="submit" class="save" name="name" value="Search">
+                    <input type="submit" class="save" name="name" value="Search/Next Image">
                 </div>
                 <div id="brand" class="col-md-2">
                     <img src="SelfBrand1.png" alt="" width="50%vw" />
@@ -72,23 +71,22 @@
         </div>
     </head>
     <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <p id="imgPlace">
-              <img src="SunInterruption.png" alt="" />
-            </p>
+        <div class="container main">
+            <div class="row" width="100vw">
+                <div class="col-md-6 images">
+                    <div id="imgPlace">
+                    </div>
 
-          </div>
-          <div class="col-md-6">
-            <p id="photoInfo">
+                </div>
+                <div class="col-md-6">
+                    <p id="photoInfo">
 
-            </p>
-          </div>
+                    </p>
+                </div>
+
+            </div>
 
         </div>
-
-      </div>
 
     </main>
     <script src="https://code.jquery.com/jquery-1.12.3.js" integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
