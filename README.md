@@ -2,4 +2,4 @@
 
 Quarter 1 project for Galvanize Platte, 2016.
 
-Using the NASA API users can access Mars rovers Curiosity, Spirit, and Opportunity by their individual Mars mission day or date. This can be further narrowed down by camera angle and is customized for each rover.
+A small site that uses the NASA API to search for images from the Mars rover's (Curiosity, Spirit, and Opportunity). Has the functionality to narrow the search to specific rovers, camera angle and date, as well as cycle through all images for a given camera on a given day.
