@@ -7,6 +7,16 @@ body {
 
 .header{
   margin-bottom: 10px;
+  z-index: 1;
+}
+
+.image-rounded{
+  transition: width 2s ease;
+  width: 270vw;
+}
+
+.image-rounded:hover {
+  width: 500vw;
 }
 
 h3 {
