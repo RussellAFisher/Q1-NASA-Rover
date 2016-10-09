@@ -7,7 +7,7 @@ A site that uses the NASA API to search for images from the Mars rover's (Curios
 [Hosted site](http://russellafisher.github.io/)
 
 
-![Landing page](/../screenshots/screenshots/NASARoverImagery.png?raw=true "Screenshot of results")
+![Landing page](/../screenshots/NASARoverImagery.png?raw=true "Screenshot of results")
 
 
 
